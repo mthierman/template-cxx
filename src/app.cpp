@@ -1,6 +1,8 @@
 #include <print>
 
-auto wmain() -> int {
+auto wmain() -> int
+{
     std::println("Hello, World!");
+
     return 0;
 }

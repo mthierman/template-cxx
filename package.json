@@ -1,0 +1,14 @@
+{
+    "name": "template-cxx",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "fmt": "oxfmt",
+        "fmt:check": "oxfmt --check"
+    },
+    "devDependencies": {
+        "oxfmt": "^0.41.0"
+    },
+    "packageManager": "pnpm@10.32.1"
+}
