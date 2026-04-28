@@ -5,7 +5,7 @@ dependencies = []
 [build]
 subsystem = "console"
 warning_level = 4
-warnings_as_errors = false
+warnings_as_errors = true
 crt_secure_no_warnings = true
 libs = []
 defines = []
