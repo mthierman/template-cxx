@@ -1,1 +1,2 @@
 #include <winres.h>
+1 ICON "template-cxx.ico"
