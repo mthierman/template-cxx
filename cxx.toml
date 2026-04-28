@@ -1,6 +1,7 @@
 name = "template-cxx"
 version = "0.0.0"
 dependencies = []
+
 [build]
 subsystem = "console"
 warning_level = 4
