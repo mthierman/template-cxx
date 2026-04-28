@@ -1,0 +1,35 @@
+name = "template-cxx"
+version = "0.0.0"
+dependencies = []
+[build]
+subsystem = "console"
+warning_level = 4
+warnings_as_errors = false
+crt_secure_no_warnings = true
+libs = []
+defines = []
+cxxflags = []
+
+[profiles]
+default_profile = "debug"
+[profiles.debug]
+incremental_link = true
+interprocedural_optimization = false
+defines = []
+cxxflags = []
+linkflags = []
+
+[profiles.reldeb]
+incremental_link = false
+interprocedural_optimization = false
+defines = []
+cxxflags = []
+linkflags = []
+
+[profiles.release]
+incremental_link = false
+interprocedural_optimization = false
+defines = []
+cxxflags = []
+linkflags = []
+

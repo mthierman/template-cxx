@@ -5,7 +5,7 @@
     "tabWidth": 4,
     "bracketSameLine": true,
     "quoteProps": "consistent",
-    "trailingComma": "all",
+    "trailingComma": "none",
     "overrides": [
         {
             "files": ["*.yml", "*.yaml", ".clang-*"],
