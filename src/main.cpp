@@ -1,7 +1,9 @@
-#include <print>
+import std;
+import util;
 
 int main()
 {
-    std::println("Hello World!");
+    util::log("Hello World from log!");
+
     return 0;
 }
